@@ -1,0 +1,14 @@
+package r.y.o.e;
+
+import java.util.Scanner;
+
+public class study {
+	
+	public  void main(String[] args) {
+		 
+		System.out.println("감사합니다. 다음에 또 방문해주세요!");
+		
+
+	}
+
+}

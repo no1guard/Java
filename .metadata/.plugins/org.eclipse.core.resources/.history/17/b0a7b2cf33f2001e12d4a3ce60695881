@@ -1,0 +1,13 @@
+
+public class Hello {
+
+	public static void main(String[] args) {
+		// System.out은 출력을 나타냅니다
+		// print() 괄호 안에 전달된 값을 출력
+        // ;(세미클론)은 코드에서 하나의 명령이 끝날 때마다 작성 
+		System.out.print("안녕하세요");
+		System.out.print("반갑습니다");
+		System.out.println("환영합니다.");
+	}
+
+}

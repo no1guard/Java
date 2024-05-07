@@ -1,0 +1,16 @@
+package Classpart;
+
+import java.util.Date;
+
+public class Student1 {	
+	
+	public static void main(String[] args) {
+		int [] numbers= {1,2,3,4,5}
+		
+		//일반 for문 
+		for (int i=0; i<numbers.length; i++) {
+			int number=numbers[i];
+			System.out.println(number);
+		}
+	}
+}

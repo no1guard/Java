@@ -1,0 +1,16 @@
+package Classpart;
+
+import java.util.ArrayList;
+import java.util.Date;
+
+public class Student1 {	
+	
+	public static void main(String[] args) {
+		 ArrayList pitches= new ArrayList();
+		 //add메서드를 사용하면 요솟값을 추가할수있다 
+		 pitches.add("138");
+		 pitches.add("129");
+		 pitches.add("142");
+		 System.out.println(pitches.get(0));
+	}
+}

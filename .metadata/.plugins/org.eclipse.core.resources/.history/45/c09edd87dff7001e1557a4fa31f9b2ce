@@ -1,0 +1,22 @@
+package r.y.o.e;
+
+import java.util.Scanner;
+
+public class study {
+
+	public static void main(String[] args) {
+		  Scanner scanner = new Scanner(System.in);
+	        String answer;
+
+	        do {
+	            System.out.println("아이스크림을 한 개 구매합니다.");
+	            System.out.println("더 사실 건가요? (yes/no): ");
+	            answer = scanner.next();
+	        } while (answer.equals("yes"));
+
+	        System.out.println("감사합니다. 다음에 또 방문해주세요!");
+	    
+
+	}
+
+}

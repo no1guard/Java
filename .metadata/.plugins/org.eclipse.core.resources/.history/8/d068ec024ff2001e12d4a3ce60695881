@@ -1,0 +1,86 @@
+
+public class Variable {
+
+	public static void main(String[] args) {
+		
+		// 1.정수 2. 문자 3.문자열 4.실수 5.논리형(참,거짓)
+		// 1. 정수엔 byte short int long이 있음
+		// byte=1byte (8비트), 가장 작은단위 
+		byte 바이트 = 1;
+		System.out.println(바이트);
+		System.out.println("바이트");
+		// 파일을 저장할때 키보드에서 ctrl + s를 눌러주면 저장됨
+		byte bt=2; // byte나 short는 컴퓨터안에 그릇의크기 
+		System.out.println(bt);
+		
+		short 쇼트=3; 
+		System.out.println(쇼트);
+		
+		int 인트 =1;// byte<short<int<long
+		System.out.println(인트);
+		System.out.println("ㅡㅡㅡㅡㅡ");
+	
+		byte bte=2;
+		short shrt=2;
+		int nt=2;
+		long lng=2;
+		System.out.println(bte);
+		System.out.println(shrt);
+		System.out.println(nt);
+		System.out.println(lng);
+		
+		//2.문자
+		// 문자에는 Char와 String이 있음 
+		// 문자를 나타내는 char은 '' 작은 따음표를 사용해서 표현 
+		// "" 큰 따옴표는 String 문자열을 나타내는 표현 
+	
+		char myChar='A';
+		System.out.println(myChar);
+	
+		 
+		char myChar2='a';
+		System.out.println(myChar2);
+		//char 에는 하나의 문자만 담을 수 있기 때문에 
+		//A나 B둘중 하나만 작성가능 
+		char myChar3='A'; // Invalid character constant << 잘못된 문자 상수
+		
+		//String
+		String str1="와 드디어 문자다~~";
+		System.out.println(str1);
+		// String을 사용해서 이름 출력하기
+		// String name = " 본인이름 " ;
+		// System.out.println (name);
+		
+		String name= "권상정";
+		System.out.print("당신의 이름은");
+		System.out.println(name);
+		System.out.println("입니다.");
+		//만약에 여러 글자나 내용을 한줄로 출력하고 싶다면 
+		// + 를 사용해서 이어서 출력할 수 있음 
+		System.out.println("당신의 이름은 "+name + " 입니다. "); //16
+		System.out.println("당신의 이름은"+name + "입니다. ");
+		System.out.println("당 신 의 이 름 은 " + name + " 입 니 다 . ");
+		// 띄어쓰기를 넣고 싶을 경우 " " 문자열 내부에 띄어쓰기를 넣으면 진행가능 
+		
+		// 정수+문자 +문자열 출력하기 
+		/*안녕하세요. 저는요 . 서울에 사는 권상정 입니다.
+		 * 제 전화번호는 000-0000-0000 입니다.
+		 * 제 주민번호는 비밀입니다.
+		 * 제 혈액형은 A형입니다.
+		 * */
+		
+		String geeting="안녕하세요.";
+		String introduction = " 저는요. 서울에 사는 OOO입니다.";
+		int number1=111;
+		int number2=2222;
+		int number3=3333;
+		char dash = '-';
+		String secret ="비밀";
+		String bloodType="A형";
+		
+		System.out.print(geeting);
+		System.out.println(introduction);
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package study;
+
+public class Logical2 {
+
+	public static void main(String[] args) {
+	 int a= 15;
+	 //a는 10보다 크고 20보다 작다 
+	 boolean result = 10<a && 20>a; //둘다 만족해야 참  (a>10) && (a<20)
+	 System.out.println("result = " + result);
+
+	}
+
+}

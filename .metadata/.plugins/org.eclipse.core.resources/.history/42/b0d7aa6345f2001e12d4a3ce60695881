@@ -1,0 +1,20 @@
+
+public class Variable {
+
+	public static void main(String[] args) {
+		// 1.정수 2. 문자 3.문자열 4.실수 5.논리형(참,거짓)
+		// 1. 정수엔 byte short int long이 있음
+		// byte=1byte (8비트), 가장 작은단위 
+		byte 바이트 = 1;
+		System.out.println(바이트);
+		System.out.println("바이트");
+		
+		byte bt=2;
+		System.out.println(bt);
+		
+
+		
+
+	}
+
+}

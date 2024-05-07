@@ -1,0 +1,52 @@
+
+public class Variable {
+
+	public static void main(String[] args) {
+		
+		// 1.정수 2. 문자 3.문자열 4.실수 5.논리형(참,거짓)
+		// 1. 정수엔 byte short int long이 있음
+		// byte=1byte (8비트), 가장 작은단위 
+		byte 바이트 = 1;
+		System.out.println(바이트);
+		System.out.println("바이트");
+		// 파일을 저장할때 키보드에서 ctrl + s를 눌러주면 저장됨
+		byte bt=2; // byte나 short는 컴퓨터안에 그릇의크기 
+		System.out.println(bt);
+		
+		short 쇼트=3; 
+		System.out.println(쇼트);
+		
+		int 인트 =1;// byte<short<int<long
+		System.out.println(인트);
+		System.out.println("ㅡㅡㅡㅡㅡ");
+	
+		byte bte=2;
+		short shrt=2;
+		int nt=2;
+		long lng=2;
+		System.out.println(bte);
+		System.out.println(shrt);
+		System.out.println(nt);
+		System.out.println(lng);
+		
+		//2.문자
+		// 문자에는 Char와 String이 있음 
+		// 문자를 나타내는 char은 '' 작은 따음표를 사용해서 표현 
+		// "" 큰 따옴표는 String 문자열을 나타내는 표현 
+		
+		char myChar='A';
+		System.out.println(myChar);
+		/*
+		 * char myChar3='AB';
+		 * char myChar4='ABC';
+		 * char mychar5='가나다';
+		 * 모두 문자가 하나가 아니기 때문에 출력할 수 없음 
+		 */
+		char myChar2='a';
+		System.out.println(myChar2);
+		//char 에는 하나의 문자만 담을 수 있기 때문에 
+		//A나 B둘중 하나만 작성가능 
+		char myChar3='A'; // Invalid character constant << 잘못된 문자 상수 
+	}
+
+}

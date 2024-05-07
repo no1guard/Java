@@ -1,0 +1,33 @@
+package sup1.model;
+
+public class Score {
+//필드 
+	int 국어;
+	int 영어;
+	int 수학;
+	int 총점;
+	double 평균;
+
+//메서드
+	public Score() {
+		
+	}
+	
+	//void 
+	public void 결과() {
+		int 총점=국어+영어+수학;
+		double 평균 =(double)총점/3.0;
+		System.out.println("국어점수는"+국어+"입니다");
+		System.out.println("영어점수는"+영어+"입니다");
+		System.out.println("수학점수는"+수학+"입니다");
+		//(평균>=50&&국어>=50&&영어>=50&&)수학>=50 ? "합격입니다." : "불합격입니다.");
+		
+	}
+	
+}
+//평균 5-점 이상이면 합격
+//삼항연산자로 합격 불합격
+//각 점수가 50이상 평균 50점이상
+//출력문으로 국엉여어 수학점
+
+

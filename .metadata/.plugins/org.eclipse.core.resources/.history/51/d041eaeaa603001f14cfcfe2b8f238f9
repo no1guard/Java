@@ -1,0 +1,8 @@
+package run;
+
+import com.kh.practice.charCheck.view.CharacterMenu;
+
+public class run {
+	CharacterMenu abc =new CharacterMenu();
+	
+}

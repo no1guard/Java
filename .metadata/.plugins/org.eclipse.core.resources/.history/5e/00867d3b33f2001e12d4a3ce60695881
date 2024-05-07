@@ -1,0 +1,12 @@
+
+public class Hello {
+
+	public static void main(String[] args) {
+        
+		System.out.print("æ»≥Á«œººø‰.");
+		System.out.println("π›∞©Ω¿¥œ¥Ÿ.");
+		System.out.print("æ»≥Á«œººø‰");
+		
+	}
+
+}
